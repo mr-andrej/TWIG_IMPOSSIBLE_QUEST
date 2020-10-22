@@ -1,0 +1,12 @@
+{
+    "name": "mrandrej/first_twig",
+    "authors": [
+        {
+            "name": "Andrej Ilievski",
+            "email": "mrandrej.ilievski@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

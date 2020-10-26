@@ -9,4 +9,4 @@ $loader = new Twig\Loader\FilesystemLoader('../src/View');
 $twig = new Twig\Environment($loader);
 $products = ['Ibuprofen', 'Paracetamol', 'Morphine', 'Laudanum', 'Opium'];
 
-echo $twig->render('index.html.twig', ['product' => $products]);
+echo $twig->render('index.html.twig', ['products' => $products]);
